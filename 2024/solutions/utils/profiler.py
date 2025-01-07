@@ -2,7 +2,8 @@ import time
 import os
 import psutil
 
- 
+#Creating a profile utility to demonstrate how fast/memory intensive each solution is
+
 def elapsed_since(start):
     return time.perf_counter()-start
  
